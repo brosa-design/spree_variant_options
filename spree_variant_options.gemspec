@@ -20,8 +20,9 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # Runtime
-  s.add_dependency 'spree_core', '>= 3.2', '< 3.6'
-  s.add_dependency 'spree_sample', '>= 3.2', '< 3.6'
+  spree_version = '>= 3.2.0', '< 4.0'
+  s.add_dependency 'spree_core', spree_version
+  s.add_dependency 'spree_sample', spree_version
   # Development
   s.add_development_dependency 'appraisal'
   s.add_development_dependency 'shoulda-matchers',   '~> 3.1.1'

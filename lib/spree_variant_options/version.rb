@@ -1,3 +1,3 @@
 module SpreeVariantOptions
-  VERSION = "3.2.0.alpha"
+  VERSION = "3.7.0"
 end
